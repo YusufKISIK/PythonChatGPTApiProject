@@ -3,8 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-./PythonChatGPTApiProject/cities/secret_key.py
-
+secret_key.py
 # C extensions
 *.so
 

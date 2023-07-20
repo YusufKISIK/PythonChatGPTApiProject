@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Daily Cost</th>
+                <th>Day Created</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for city in Cities %}
+            <tr>
+                <td>
+                    <a href="{% url 'cities:details' city.id %}">{{city.name}}</a>
+                </td>
+                <td>{{city.price}} Euro</td>
+                <td>{{city.date_created}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="chat-history mb-3">
+        {% for message in messages %}
+          <div class="card mb-2 {% if message.role == 'assistant' %}bg-success text-white{% endif %}">
+            <div class="card-body p-2">
+              <strong>{{ message.role|title }}:</strong> {{ message.content|linebreaksbr }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
+      <form action="." method="POST">
+        <!-- this secures the form from malicious attacks during submission -->
+        {% csrf_token %}
+        <input class="form-control mb-2" required type="text" autofocus="autofocus" name="prompt" value="{{ prompt }}" id="">
+        <button class="btn btn-success fw-bold" type="submit">
+             GENERATE
+        </button>
+      </form>
+{% endblock %}

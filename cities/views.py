@@ -7,7 +7,7 @@ import psycopg2
 import re
 from datetime import datetime
 # import the generated API key from the secret_key file
-from .secret_key import API_KEY
+from secret_key import API_KEY
 # loading the API key from the secret_key file
 openai.api_key = API_KEY
 # Create your views here.

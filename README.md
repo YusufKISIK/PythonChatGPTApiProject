@@ -27,16 +27,6 @@ You need your own API key thatswhy go buy one.
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -92,4 +82,4 @@ Yusuf Kazim Isik - yusufk.isik@gmail.com
 [license-shield]: https://img.shields.io/github/license/YusufKISIK/PythonChatGPTApiProject?style=for-the-badge
 [license-url]: https://github.com/YusufKISIK/PythonChatGPTApiProject/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/YusufKISIK
+[linkedin-url]: https://www.linkedin.com/in/yusuf-isik/

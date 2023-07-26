@@ -9,7 +9,7 @@
 # PythonChatGPTApiProject
 Example project to develop my Django and PostgreSQL skills
 
-About The Project (⚠️ UNDER DEVELOPMENT ⚠️)
+## About The Project (⚠️ UNDER DEVELOPMENT ⚠️)
 
 This project uses the ChatGPT API and Django to create a chatbot that can help users learn the cost of one day in a city they specify. 
 The chatbot will ask the user for the name of the city they are interested in, and then use the ChatGPT API to generate a list of prices that approximately cost of the day.

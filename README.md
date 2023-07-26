@@ -17,8 +17,14 @@ The chatbot will ask the user for the name of the city they are interested in, a
 ![](https://github.com/YusufKISIK/PythonChatGPTApiProject/blob/main/runninggif.gif)
 
 ### Before move forward
-You need your own API key thatswhy go buy one.
+You need your own API key.
 
+```python
+touch secret_key.py
+
+#Inside of secret_key.py file
+API_KEY = ''
+```
 
 
 <!-- TABLE OF CONTENTS -->
